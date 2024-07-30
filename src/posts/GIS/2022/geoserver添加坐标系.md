@@ -1,14 +1,14 @@
 ---
 title: Geoserver添加坐标系
-date: 2022/06/10
+date: 2022-06-10
 tags:
   - Geoserver
 categories:
   - GIS相关
 ---
 
-- 在epsg.io确定坐标的wkt参数
-- 打开data_dir/user_projections文件夹，找到epsg.properties文件
+- 在 epsg.io 确定坐标的 wkt 参数
+- 打开 data_dir/user_projections 文件夹，找到 epsg.properties 文件
 
 ```
 #新增一个3857坐标系，就是这样：
@@ -17,4 +17,5 @@ categories:
 ```
 
 #### 参考
+
 1. [https://blog.csdn.net/jin80506/article/details/101210892](https://blog.csdn.net/jin80506/article/details/101210892)

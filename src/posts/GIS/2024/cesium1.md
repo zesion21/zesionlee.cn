@@ -1,6 +1,6 @@
 ---
 title: cesium相关之创建地球
-date: 2024/05/01
+date: 2024-05-01
 tags:
   - cesium
 categories:

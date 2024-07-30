@@ -19,6 +19,7 @@ export default hopeTheme({
   repoDisplay: true,
 
   docsDir: "src",
+  docsBranch: "master",
 
   // 导航栏
   navbar,

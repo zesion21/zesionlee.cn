@@ -1,6 +1,6 @@
 ---
 title: vite项目配置环境和获取当前环境
-date: 2023/04/19
+date: 2023-04-19
 tags:
   - vue
   - vite

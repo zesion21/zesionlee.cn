@@ -1,6 +1,6 @@
 ---
 title: postgresql 免安装版本 部署
-date: 2023/04/20
+date: 2023-04-20
 tags:
   - postgres
 categories:
