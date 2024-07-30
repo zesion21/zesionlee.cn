@@ -19,7 +19,7 @@ export default navbar([
       //   prefix: "banana/",
       // },
 
-      { text: "Angular", icon: "pen-to-square", link: "/category/linux/" },
+      { text: "Angular", icon: "pen-to-square", link: "/category/angular/" },
       { text: "Vue", icon: "pen-to-square", link: "/category/vue/" },
       { text: "Node", icon: "pen-to-square", link: "/category/node/" },
       { text: "Java", icon: "pen-to-square", link: "/category/java/" },
