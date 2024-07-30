@@ -39,19 +39,19 @@ export default hopeTheme({
     intro: "/intro.html",
     medias: {
       // Baidu: "https://example.com",
-      BiliBili: "https://example.com",
+      BiliBili: "https://space.bilibili.com/32763783",
       // Bitbucket: "https://example.com",
       // Dingding: "https://example.com",
       // Discord: "https://example.com",
       // Dribbble: "https://example.com",
-      Email: "mailto:info@example.com",
+      Email: "mailto:zechen21@foxmail.com",
       // Evernote: "https://example.com",
       // Facebook: "https://example.com",
       // Flipboard: "https://example.com",
-      Gitee: "https://example.com",
-      GitHub: "https://example.com",
+      Gitee: "https://gitee.com/zechen21/",
+      GitHub: "https://github.com/zesion21",
       // Gitlab: "https://example.com",
-      Gmail: "mailto:info@example.com",
+      Gmail: "mailto:zechen321@gmail.com",
       // Instagram: "https://example.com",
       // Lark: "https://example.com",
       // Lines: "https://example.com",
@@ -65,7 +65,7 @@ export default hopeTheme({
       // Steam: "https://example.com",
       // Twitter: "https://example.com",
       // Wechat: "https://example.com",
-      Weibo: "https://example.com",
+      Weibo: "https://weibo.com/u/7273288165",
       // Whatsapp: "https://example.com",
       // Youtube: "https://example.com",
       // Zhihu: "https://example.com",
@@ -78,11 +78,11 @@ export default hopeTheme({
   },
 
   // 加密配置
-  encrypt: {
-    config: {
-      "/demo/encrypt.html": ["1234"],
-    },
-  },
+  // encrypt: {
+  //   config: {
+  //     "/demo/encrypt.html": ["1234"],
+  //   },
+  // },
 
   // 多语言配置
   metaLocales: {},
