@@ -2,10 +2,10 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  "/posts/",
+  // "/posts/",
   {
     text: "博文",
-    icon: "pen-to-square",
+    // icon: "pen-to-square",
     prefix: "/posts/",
     children: [
       // {
@@ -18,10 +18,10 @@ export default navbar([
       //   icon: "pen-to-square",
       //   prefix: "banana/",
       // },
-      { text: "樱桃", icon: "pen-to-square", link: "cherry" },
-      { text: "火龙果", icon: "pen-to-square", link: "dragonfruit" },
-      "tomato",
-      "strawberry",
+      { text: "GIS相关", icon: "pen-to-square", link: "/category/linux/" },
+      { text: "Linux", icon: "pen-to-square", link: "/category/linux/" },
+      // "tomato",
+      // "strawberry",
     ],
   },
   {

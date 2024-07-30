@@ -15,7 +15,8 @@ export default hopeTheme({
 
   logo: "/logo.png",
 
-  repo: "",
+  repo: "https://gitee.com/zechen21/zesionlee.hope.com",
+  repoDisplay: true,
 
   docsDir: "src",
 
