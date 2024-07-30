@@ -23,7 +23,7 @@ export default hopeTheme({
   navbar,
 
   // 侧边栏
-  sidebar,
+  sidebar: false,
   editLink: true,
   contributors: true,
   lastUpdated: true,
@@ -72,6 +72,7 @@ export default hopeTheme({
       //   link: "https://theme-hope.vuejs.press",
       // },
     },
+    sidebarDisplay: "none",
   },
 
   // 加密配置

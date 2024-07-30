@@ -7,6 +7,7 @@ heroImage: ""
 heroText: ""
 heroFullScreen: false
 tagline: ""
+editLink: true
 # projects:
 #   - icon: project
 #     name: 项目名称
