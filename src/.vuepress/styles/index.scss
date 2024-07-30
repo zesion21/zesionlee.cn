@@ -1,0 +1,13 @@
+// place your custom styles here
+.vp-navbar-start,
+.vp-navbar-end {
+  flex: 0;
+}
+.vp-navbar-center {
+  flex: 1;
+  justify-content: right;
+  padding: 0 30px;
+  .vp-nav-item {
+    margin: 0 0.4rem;
+  }
+}
