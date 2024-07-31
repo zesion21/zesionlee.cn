@@ -51,17 +51,19 @@ export default hopeTheme({
     intro: "/intro.html",
     medias: {
       // Baidu: "https://example.com",
-      BiliBili: "https://space.bilibili.com/32763783",
+    
       // Bitbucket: "https://example.com",
       // Dingding: "https://example.com",
       // Discord: "https://example.com",
       // Dribbble: "https://example.com",
-      Email: "mailto:zechen21@foxmail.com",
+     
       // Evernote: "https://example.com",
       // Facebook: "https://example.com",
       // Flipboard: "https://example.com",
-      Gitee: "https://gitee.com/zechen21/",
+     
       GitHub: "https://github.com/zesion21",
+      Gitee: "https://gitee.com/zechen21/",
+      Email: "mailto:zechen21@foxmail.com",
       // Gitlab: "https://example.com",
       Gmail: "mailto:zechen321@gmail.com",
       // Instagram: "https://example.com",
@@ -78,6 +80,11 @@ export default hopeTheme({
       // Twitter: "https://example.com",
       // Wechat: "https://example.com",
       Weibo: "https://weibo.com/u/7273288165",
+      CSDN:{
+        link:"https://weibo.com/u/7273288165",
+        icon:"https://theme-hope-assets.vuejs.press/logo.svg"
+      },
+      BiliBili: "https://space.bilibili.com/32763783",
       // Whatsapp: "https://example.com",
       // Youtube: "https://example.com",
       // Zhihu: "https://example.com",

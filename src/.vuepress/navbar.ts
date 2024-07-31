@@ -7,7 +7,7 @@ export default navbar([
     link: "/",
   },
   {
-    text: "博文",
+    text: "文章",
     icon: "list",
     prefix: "/article/",
     children: [
