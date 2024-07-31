@@ -2,12 +2,14 @@
 home: true
 layout: BlogHome
 icon: home
-title: 首页
-heroImage: ""
+title: ""
+bgImage: "/assets/images/bgmac13.jpg"
+# bgImageStyle:
 heroText: ""
 heroFullScreen: false
 tagline: ""
 editLink: true
+
 # projects:
 #   - icon: project
 #     name: 项目名称

@@ -11,13 +11,16 @@ export default hopeTheme({
     url: "http://zesionlee.com",
   },
 
-  iconAssets: "fontawesome-with-brands",
+  iconAssets: [
+    "http://zesionlee.com/lib/fontawesome-free-6.6.0/js/solid.min.js",
+    "http://zesionlee.com/lib/fontawesome-free-6.6.0/js/fontawesome.min.js",
+    "http://zesionlee.com/lib/fontawesome-free-6.6.0/js/brands.min.js",
+  ],
 
   logo: "/logo.png",
 
   repo: "https://gitee.com/zechen21/zesionlee.hope.com",
   repoDisplay: true,
-
   docsDir: "src",
   docsBranch: "master",
 
@@ -26,10 +29,19 @@ export default hopeTheme({
 
   // 侧边栏
   sidebar: false,
+
   editLink: true,
   contributors: true,
   lastUpdated: true,
-
+  pageInfo: [
+    "Author",
+    "Original",
+    "Date",
+    "PageView",
+    "ReadingTime",
+    "Category",
+    "Tag",
+  ],
   // 页脚
   // footer: `<a href="https://github.com/Mister-Hope">Mr.Hope</a>`,
 
@@ -92,11 +104,20 @@ export default hopeTheme({
 
   // 在这里配置主题提供的插件
   plugins: {
+    seo: true,
+    search: true,
     copyright: false,
-
     blog: true,
     git: true,
-
+    sitemap: {
+      changefreq: "always",
+    },
+    shiki: {
+      themes: {
+        dark: "monokai",
+        light: "one-light",
+      },
+    },
     // 启用之前需安装 @waline/client
     // 警告: 这是一个仅供演示的测试服务，在生产环境中请自行部署并使用自己的服务！
     // comment: {

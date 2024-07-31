@@ -2,9 +2,32 @@
 $colors: #c0392b, #d35400, #f39c12, #27ae60, #16a085, #2980b9, #8e44ad, #2c3e50,
   #7f8c8d !default;
 .vp-blog-hero {
-  height: 0;
+  height: 200px;
 }
 .vp-footer-wrapper {
   flex-direction: row-reverse;
   justify-content: space-around;
+}
+.vp-article-excerpt {
+  display: none;
+}
+.vp-article-title {
+  font-size: larger;
+}
+.intro-container{
+  .vp-page-title{
+    display: none;
+  }
+  .contact{
+    padding-left: 5px;
+    display: flex;
+  }
+  .contact>span{
+    margin-right: 20px;
+    font-size: 16px;
+    span{
+      font-size: 16px;
+      margin-right: 3px;
+    }
+  }
 }

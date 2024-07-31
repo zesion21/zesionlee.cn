@@ -1,12 +1,10 @@
-// you can change colors here
-// $theme-color: #096dd9;
 @font-face {
-  font-family: "iconfont-intro"; /* Project id  */
+  font-family: "iconfont"; /* Project id  */
   src: url('iconfont.ttf?t=1722406577663') format('truetype');
 }
 
-.iconfont-intro {
-  font-family: "iconfont-intro" !important;
+.iconfont {
+  font-family: "iconfont" !important;
   font-size: 16px;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
