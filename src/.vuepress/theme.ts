@@ -4,6 +4,7 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
+
   hostname: "http://zesionlee.com",
 
   author: {
@@ -27,6 +28,9 @@ export default hopeTheme({
   // 导航栏
   navbar,
 
+  displayFooter:true,
+  
+
   // 侧边栏
   sidebar: false,
 
@@ -43,7 +47,8 @@ export default hopeTheme({
     "Tag",
   ],
   // 页脚
-  // footer: `<a href="https://github.com/Mister-Hope">Mr.Hope</a>`,
+  footer: `<div>备案号: <a href="https://beian.miit.gov.cn/">京ICP备19037274号-1</a> </div>  <div>Copyright &copy 2021-2024 阿琛</div>  <div>Font: <a href="https://hyperos.mi.com/font" target="_blank" >MiSans</a> | Power By: <a href="https://theme-hope.vuejs.press/zh/">VuePress Theme Hope</a></div>`,
+  copyright:``,
 
   // 博客相关
   blog: {
@@ -79,12 +84,13 @@ export default hopeTheme({
       // Steam: "https://example.com",
       // Twitter: "https://example.com",
       // Wechat: "https://example.com",
-      Weibo: "https://weibo.com/u/7273288165",
+     
       CSDN:{
-        link:"https://weibo.com/u/7273288165",
-        icon:"https://theme-hope-assets.vuejs.press/logo.svg"
+        link:"https://blog.csdn.net/qq_32259239",
+        icon:"http://zesionlee.com/assets/icon/csdn.svg"
       },
       BiliBili: "https://space.bilibili.com/32763783",
+      Weibo: "https://weibo.com/u/7273288165",
       // Whatsapp: "https://example.com",
       // Youtube: "https://example.com",
       // Zhihu: "https://example.com",

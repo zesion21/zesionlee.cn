@@ -11,3 +11,41 @@
     margin: 0 0.4rem;
   }
 }
+.vp-blog-hero {
+  height: 200px;
+}
+.vp-footer-wrapper {
+  // flex-direction: row-reverse;
+  justify-content:center;
+  .vp-footer{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    div,a{
+      font-size: 13px;
+    }
+  }
+}
+.vp-article-excerpt {
+  display: none;
+}
+.vp-article-title {
+  font-size: larger;
+}
+.intro-container{
+  .vp-page-title{
+    display: none;
+  }
+  .contact{
+    padding-left: 5px;
+    display: flex;
+  }
+  .contact>span{
+    margin-right: 20px;
+    font-size: 16px;
+    span{
+      font-size: 16px;
+      margin-right: 3px;
+    }
+  }
+}

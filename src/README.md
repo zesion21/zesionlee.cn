@@ -41,7 +41,7 @@ editLink: true
 #     desc: 自定义详细介绍
 #     link: https://你的自定义链接
 
-footer: <a href="https://beian.miit.gov.cn/">京ICP备19037274号-1</a>
+# footer: <a href="https://beian.miit.gov.cn/">京ICP备19037274号-1</a>
 
-copyright: "Copyright &copy 2021-2024 阿琛"
+# copyright: "Copyright &copy 2021-2024 阿琛"
 ---
