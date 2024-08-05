@@ -73,6 +73,8 @@ sticky: true
 
 ### ✨ 技能清单
 
+---
+
 - 熟练使用 Vue 和 Angular 进行开发
 - 熟练使用 openlayers、arcgis for JavaScript 和 cesium 进行二维地图和三维地图的开发
 - 熟练使用 es6 语法以及 TS 进行代码的编写
