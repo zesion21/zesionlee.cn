@@ -4,7 +4,6 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-
   hostname: "http://zesionlee.com",
 
   author: {
@@ -20,7 +19,7 @@ export default hopeTheme({
 
   logo: "/logo.png",
 
-  repo: "https://gitee.com/zechen21/zesionlee.hope.com",
+  repo: "https://gitee.com/zechen21/zesionlee.com",
   repoDisplay: true,
   docsDir: "src",
   docsBranch: "master",
@@ -28,8 +27,7 @@ export default hopeTheme({
   // 导航栏
   navbar,
 
-  displayFooter:true,
-  
+  displayFooter: true,
 
   // 侧边栏
   sidebar: false,
@@ -48,7 +46,7 @@ export default hopeTheme({
   ],
   // 页脚
   footer: `<div>备案号: <a href="https://beian.miit.gov.cn/">京ICP备19037274号-1</a> </div>  <div>Copyright &copy 2021-2024 阿琛</div>  <div>Font: <a href="https://hyperos.mi.com/font" target="_blank" >MiSans</a> | Power By: <a href="https://theme-hope.vuejs.press/zh/">VuePress Theme Hope</a></div>`,
-  copyright:``,
+  copyright: ``,
 
   // 博客相关
   blog: {
@@ -56,16 +54,16 @@ export default hopeTheme({
     intro: "/intro.html",
     medias: {
       // Baidu: "https://example.com",
-    
+
       // Bitbucket: "https://example.com",
       // Dingding: "https://example.com",
       // Discord: "https://example.com",
       // Dribbble: "https://example.com",
-     
+
       // Evernote: "https://example.com",
       // Facebook: "https://example.com",
       // Flipboard: "https://example.com",
-     
+
       GitHub: "https://github.com/zesion21",
       Gitee: "https://gitee.com/zechen21/",
       Email: "mailto:zechen21@foxmail.com",
@@ -84,10 +82,10 @@ export default hopeTheme({
       // Steam: "https://example.com",
       // Twitter: "https://example.com",
       // Wechat: "https://example.com",
-     
-      CSDN:{
-        link:"https://blog.csdn.net/qq_32259239",
-        icon:"http://zesionlee.com/assets/icon/csdn.svg"
+
+      CSDN: {
+        link: "https://blog.csdn.net/qq_32259239",
+        icon: "http://zesionlee.com/assets/icon/csdn.svg",
       },
       BiliBili: "https://space.bilibili.com/32763783",
       Weibo: "https://weibo.com/u/7273288165",
