@@ -59,5 +59,10 @@
 footer,
 header,
 .page-info {
-  font-family: "MiSans Latin", "MiSans VF";
+  font-family: "MiSans Latin", "MiSans VF", sans-serif;
+}
+.theme-hope-content:not(.custom) > p,
+.theme-hope-content:not(.custom) > ul p,
+.theme-hope-content:not(.custom) > ol p {
+  text-align: left;
 }
