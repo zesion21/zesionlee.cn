@@ -2,7 +2,8 @@
 // $theme-color: #096dd9;
 @font-face {
   font-family: "iconfont-intro"; /* Project id  */
-  src: url('iconfont.ttf?t=1722406577663') format('truetype');
+  src: url("http://cdn.zesionlee.com//lib/fonts/iconfonts/iconfont.ttf")
+    format("truetype");
 }
 
 .iconfont-intro {
@@ -40,4 +41,3 @@
 .icon-gitee:before {
   content: "\e601";
 }
-
