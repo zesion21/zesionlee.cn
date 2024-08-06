@@ -14,14 +14,14 @@ export default defineUserConfig({
     [
       "link",
       {
-        href: "http://cdn.zesionlee.com/lib/fonts/MiSans/MiSans_Latin_VF/result.css",
+        href: "http://cdn.zesionlee.com/lib/fonts/MiSans_Latin_VF/result.css",
         rel: "stylesheet",
       },
     ],
     [
       "link",
       {
-        href: "http://cdn.zesionlee.com/lib/fonts/MiSans/MiSans_VF/result.css",
+        href: "http://cdn.zesionlee.com/lib/fonts/MiSans_VF/result.css",
         rel: "stylesheet",
       },
     ],
