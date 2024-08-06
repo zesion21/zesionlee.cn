@@ -16,12 +16,13 @@
 }
 .vp-footer-wrapper {
   // flex-direction: row-reverse;
-  justify-content:center;
-  .vp-footer{
+  justify-content: center;
+  .vp-footer {
     width: 80%;
     display: flex;
     justify-content: space-around;
-    div,a{
+    div,
+    a {
       font-size: 13px;
     }
   }
@@ -32,20 +33,26 @@
 .vp-article-title {
   font-size: larger;
 }
-.intro-container{
-  .vp-page-title{
+.intro-container {
+  .vp-page-title {
     display: none;
   }
-  .contact{
+  .contact {
     padding-left: 5px;
     display: flex;
   }
-  .contact>span{
+  .contact > span {
     margin-right: 20px;
     font-size: 16px;
-    span{
+    span {
       font-size: 16px;
       margin-right: 3px;
     }
   }
+}
+.vp-page-meta,
+footer,
+header,
+.page-info {
+  font-family: "MiSans Latin", "MiSans VF";
 }

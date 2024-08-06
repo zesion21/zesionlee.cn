@@ -14,15 +14,21 @@ export default defineUserConfig({
     [
       "link",
       {
-        href: "https://cdn-font.hyperos.mi.com/font/css?family=MiSans_VF:VF:Chinese_Simplify,Latin&display=swap",
+        href: "http://cdn.zesionlee.com/lib/fonts/MiSans/MiSans_Latin_VF/result.css",
         rel: "stylesheet",
       },
     ],
-
     [
       "link",
       {
-        href: "https://cdn-font.hyperos.mi.com/font/css?family=MiSans:100,200,300,400,450,500,600,650,700,900:Chinese_Simplify,Latin&display=swap",
+        href: "http://cdn.zesionlee.com/lib/fonts/MiSans/MiSans_VF/result.css",
+        rel: "stylesheet",
+      },
+    ],
+    [
+      "link",
+      {
+        href: "http://cdn.zesionlee.com/lib/fonts/MiSans/style.css",
         rel: "stylesheet",
       },
     ],
