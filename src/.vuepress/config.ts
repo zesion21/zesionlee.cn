@@ -18,6 +18,14 @@ export default defineUserConfig({
         rel: "stylesheet",
       },
     ],
+
+    [
+      "link",
+      {
+        href: "http://cdn.zesionlee.com/lib/fonts/iconfonts/iconfont.css",
+        rel: "stylesheet",
+      },
+    ],
     [
       "link",
       {

@@ -19,7 +19,7 @@ export default hopeTheme({
 
   logo: "/logo.png",
 
-  repo: "https://gitee.com/zechen21/zesionlee.com",
+  repo: "https://github.com/zesion21/zesionlee.com",
   repoDisplay: true,
   docsDir: "src",
   docsBranch: "master",
