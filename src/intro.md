@@ -6,6 +6,7 @@ readingTime: false
 containerClass: intro-container
 article: false
 sticky: true
+comment: false
 ---
 
 <div ></div>
