@@ -50,7 +50,7 @@ export default hopeTheme({
 
   // 博客相关
   blog: {
-    description: "一个前端开发者",
+    description: "一个前端开发者 <br/> 会一点后端",
     intro: "/intro.html",
     medias: {
       // Baidu: "https://example.com",
