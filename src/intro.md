@@ -124,10 +124,10 @@ comment: false
 
   - 责任描述：
 
-  1.  使用 Angular 进行整体前端项目的搭建
-  2.  采用 openlayers + geoserver 的方式进行地图的搭建
-  3.  使用 Springboot 编写后台接口，并集成 gdal 在后台实现对矢量数据的处理
-  4.  使用 geoserver-manager 实现在 java 中发布 geosevrer 服务的功能
+    1.  使用 Angular 进行整体前端项目的搭建
+    2.  采用 openlayers + geoserver 的方式进行地图的搭建
+    3.  使用 Springboot 编写后台接口，并集成 gdal 在后台实现对矢量数据的处理
+    4.  使用 geoserver-manager 实现在 java 中发布 geosevrer 服务的功能
 
 <!-- - 航图大师可视化决策平台 前端开发、Java 开发 (2023.08~2024.02)
 
@@ -149,10 +149,10 @@ comment: false
 
   - 责任描述：
 
-  1.  使用 vue 对整体项目进行搭建
-  2.  使用 mars3d 框架 + geoserver ，搭建三维地图部分
-  3.  使用 Echarts 框架对项目中的图表进行绘制
-  4.  编写 Springboot 后台接口，并集成 gdal 在后台实现对矢量数据的处理
+    1.  使用 vue 对整体项目进行搭建
+    2.  使用 mars3d 框架 + geoserver ，搭建三维地图部分
+    3.  使用 Echarts 框架对项目中的图表进行绘制
+    4.  编写 Springboot 后台接口，并集成 gdal 在后台实现对矢量数据的处理
 
 <!--  - 雅下实景三维数据服务平台 前端开发、Java 开发 (2024.07~2024.12)
 
