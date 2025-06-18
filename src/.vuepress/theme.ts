@@ -45,7 +45,7 @@ export default hopeTheme({
     "Tag",
   ],
   // 页脚
-  footer: `<div>备案号: <a href="https://beian.miit.gov.cn/">京ICP备19037274号-1</a> </div>  <div>Copyright &copy 2021-2024 阿琛</div>  <div>Font: <a href="https://hyperos.mi.com/font" target="_blank" >MiSans</a> | Power By: <a href="https://theme-hope.vuejs.press/zh/">VuePress Theme Hope</a></div>`,
+  footer: `<div>备案号: <a href="https://beian.miit.gov.cn/">京ICP备19037274号-1</a> </div>  <div>Copyright &copy 2021 ~ 2025 阿琛</div>  <div>Font: <a href="https://hyperos.mi.com/font" target="_blank" >MiSans</a> | Power By: <a href="https://theme-hope.vuejs.press/zh/">VuePress Theme Hope</a></div>`,
   copyright: ``,
 
   // 博客相关

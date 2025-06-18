@@ -3,13 +3,12 @@ home: true
 layout: BlogHome
 icon: home
 title: ""
-bgImage: "/assets/images/bgmac13.jpg"
+bgImage: "/assets/images/iClarified-macOS-Tahoe-Default-Light-4K.jpg"
 # bgImageStyle:
 heroText: ""
 heroFullScreen: false
 tagline: ""
 editLink: true
-
 # projects:
 #   - icon: project
 #     name: 项目名称
