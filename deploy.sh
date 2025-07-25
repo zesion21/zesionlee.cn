@@ -13,7 +13,7 @@ git config --global user.email "39211025+zesion21@users.noreply.github.com"
 git init
 git add -A
 git commit -m "${msg}"
-git push -f $githubUrl master:gh-pages # 推送到github
+git push -f $githubUrl main:gh-pages # 推送到github
 
 cd -
 rm -rf src/.vuepress/dist
