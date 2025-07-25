@@ -2,7 +2,7 @@
 # 确保脚本抛出遇到的错误
 set -e
 npm run build # 生成静态文件
-cd docs/.vuepress/dist # 进入生成的文件夹
+cd src/.vuepress/dist # 进入生成的文件夹
 
 # deploy to github
 msg='来自github action的自动部署'
@@ -14,3 +14,6 @@ git init
 git add -A
 git commit -m "${msg}"
 git push -f $githubUrl master:gh-pages # 推送到github
+
+cd -
+rm -rf src/.vuepress/dist
