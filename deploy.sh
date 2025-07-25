@@ -9,6 +9,7 @@ msg='来自github action的自动部署'
 githubUrl=https://zesion21:${GITHUB_TOKEN}@github.com/zesion21/zesion21.github.io.git
 git config --global user.name "zesion21"
 git config --global user.email "39211025+zesion21@users.noreply.github.com"
+git config --global push.autoSetupRemote true
 
 git init -b main 
 git add -A
