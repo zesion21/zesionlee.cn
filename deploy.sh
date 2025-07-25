@@ -4,8 +4,11 @@ set -e
 npm run build # 生成静态文件
 cd src/.vuepress/dist # 进入生成的文件夹
 
+
+echo 'blog.zesionlee.cn' > CNAME
+
 # deploy to github
-msg='来自github action的自动部署'
+msg='来自 https://github.com/zesion21/zesionlee.cn Actions '
 githubUrl=https://zesion21:${GITHUB_TOKEN}@github.com/zesion21/zesion21.github.io.git
 git config --global user.name "zesion21"
 git config --global user.email "39211025+zesion21@users.noreply.github.com"
