@@ -10,10 +10,10 @@ githubUrl=https://zesion21:${GITHUB_TOKEN}@github.com/zesion21/zesion21.github.i
 git config --global user.name "zesion21"
 git config --global user.email "39211025+zesion21@users.noreply.github.com"
 
-git init
+git init -b main 
 git add -A
 git commit -m "${msg}"
-git push -f $githubUrl main:gh-pages # 推送到github
+git push -f $githubUrl # 推送到github
 
 cd -
 rm -rf src/.vuepress/dist
