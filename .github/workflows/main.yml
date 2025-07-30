@@ -31,7 +31,7 @@ jobs: # 工作流
           username: ${{ secrets.FTP_USERNAME }}  # 从 Secrets 获取用户名
           password: ${{ secrets.FTP_PASSWORD }}  # 从 Secrets 获取密码
           local-dir: ./src/.vuepress/dist/  # 本地打包后的文件夹路径（根据项目调整）
-          server-dir: /wwwroot  # FTP 服务器上的目标目录
+          server-dir: wwwroot/  # FTP 服务器上的目标目录
           log-level: verbose  # 显示详细日志，便于调试
 
       # 步骤 5：部署到github.io
