@@ -24,15 +24,15 @@ jobs: # 工作流
         run: npm install --force && npm run build
         
       # 步骤 4：部署FTP  
-      - name: Deploy to FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
-        with:
-          server: ${{ secrets.FTP_SERVER }}  # 从 Secrets 获取 FTP 服务器地址
-          username: ${{ secrets.FTP_USERNAME }}  # 从 Secrets 获取用户名
-          password: ${{ secrets.FTP_PASSWORD }}  # 从 Secrets 获取密码
-          local-dir: ./src/.vuepress/dist/  # 本地打包后的文件夹路径（根据项目调整）
-          server-dir: /wwwroot/  # FTP 服务器上的目标目录
-          log-level: verbose  # 显示详细日志，便于调试
+      #- name: Deploy to FTP
+      #  uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+      #  with:
+      #    server: ${{ secrets.FTP_SERVER }}  # 从 Secrets 获取 FTP 服务器地址
+      #    username: ${{ secrets.FTP_USERNAME }}  # 从 Secrets 获取用户名
+      #    password: ${{ secrets.FTP_PASSWORD }}  # 从 Secrets 获取密码
+      #    local-dir: ./src/.vuepress/dist/  # 本地打包后的文件夹路径（根据项目调整）
+      #    server-dir: wwwroot/  # FTP 服务器上的目标目录
+      #    log-level: verbose  # 显示详细日志，便于调试
 
       # 步骤 5：部署到github.io
       - name: Deploy to github.io
