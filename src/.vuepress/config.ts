@@ -14,28 +14,28 @@ export default defineUserConfig({
     [
       "link",
       {
-        href: "https://cdn.zesionlee.cn/lib/fonts/MiSans_Latin_VF/result.css",
+        href: "http://cdn.zesionlee.cn/lib/fonts/MiSans_Latin_VF/result.css",
         rel: "stylesheet",
       },
     ],
     [
       "link",
       {
-        href: "https://cdn.zesionlee.cn/lib/fonts/iconfonts/iconfont.css",
+        href: "http://cdn.zesionlee.cn/lib/fonts/iconfonts/iconfont.css",
         rel: "stylesheet",
       },
     ],
     [
       "link",
       {
-        href: "https://cdn.zesionlee.cn/lib/fonts/MiSans_VF/result.css",
+        href: "http://cdn.zesionlee.cn/lib/fonts/MiSans_VF/result.css",
         rel: "stylesheet",
       },
     ],
     [
       "link",
       {
-        href: "https://cdn.zesionlee.cn/lib/fonts/MiSans/style.css",
+        href: "http://cdn.zesionlee.cn/lib/fonts/MiSans/style.css",
         rel: "stylesheet",
       },
     ],
