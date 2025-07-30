@@ -12,9 +12,9 @@ export default hopeTheme({
   },
 
   iconAssets: [
-    "https://www.zesionlee.cn/lib/fontawesome-free-6.6.0/js/solid.min.js",
-    "https://www.zesionlee.cn/lib/fontawesome-free-6.6.0/js/fontawesome.min.js",
-    "https://www.zesionlee.cn/lib/fontawesome-free-6.6.0/js/brands.min.js",
+    "https://cdn.zesionlee.cn/lib/fontawesome-free-6.6.0/js/solid.min.js",
+    "https://cdn.zesionlee.cn/lib/fontawesome-free-6.6.0/js/fontawesome.min.js",
+    "https://cdn.zesionlee.cn/lib/fontawesome-free-6.6.0/js/brands.min.js",
   ],
 
   logo: "/logo.png",
