@@ -4,22 +4,22 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "http://zesionlee.com",
+  hostname: "http://zesionlee.cn",
 
   author: {
     name: "阿琛",
-    url: "http://zesionlee.com",
+    url: "http://zesionlee.cn",
   },
 
   iconAssets: [
-    "https://www.zesionlee.com/lib/fontawesome-free-6.6.0/js/solid.min.js",
-    "https://www.zesionlee.com/lib/fontawesome-free-6.6.0/js/fontawesome.min.js",
-    "https://www.zesionlee.com/lib/fontawesome-free-6.6.0/js/brands.min.js",
+    "https://www.zesionlee.cn/lib/fontawesome-free-6.6.0/js/solid.min.js",
+    "https://www.zesionlee.cn/lib/fontawesome-free-6.6.0/js/fontawesome.min.js",
+    "https://www.zesionlee.cn/lib/fontawesome-free-6.6.0/js/brands.min.js",
   ],
 
   logo: "/logo.png",
 
-  repo: "https://github.com/zesion21/zesionlee.com",
+  repo: "https://github.com/zesion21/zesionlee.cn",
   repoDisplay: true,
   docsDir: "src",
   docsBranch: "master",
@@ -45,7 +45,7 @@ export default hopeTheme({
     "Tag",
   ],
   // 页脚
-  footer: `<div>备案号: <a href="https://beian.miit.gov.cn/">京ICP备19037274号-1</a> </div>  <div>Copyright &copy 2021 ~ 2025 阿琛</div>  <div>Font: <a href="https://hyperos.mi.com/font" target="_blank" >MiSans</a> | Power By: <a href="https://theme-hope.vuejs.press/zh/">VuePress Theme Hope</a></div>`,
+  footer: `<div>备案号: <a href="https://beian.miit.gov.cn/">京ICP备19037274号-3</a> </div>  <div>Copyright &copy 2021 ~ 2025 阿琛</div>  <div>Font: <a href="https://hyperos.mi.com/font" target="_blank" >MiSans</a> | Power By: <a href="https://theme-hope.vuejs.press/zh/">VuePress Theme Hope</a></div>`,
   copyright: ``,
 
   // 博客相关
@@ -85,7 +85,7 @@ export default hopeTheme({
 
       CSDN: {
         link: "https://blog.csdn.net/qq_32259239",
-        icon: "http://zesionlee.com/assets/icon/csdn.svg",
+        icon: "http://zesionlee.cn/assets/icon/csdn.svg",
       },
       BiliBili: "https://space.bilibili.com/32763783",
       Weibo: "https://weibo.com/u/7273288165",
@@ -134,7 +134,7 @@ export default hopeTheme({
     comment: {
       provider: "Giscus",
       repoId: "R_kgDOM4r5hQ",
-      repo: "zesion21/zesionlee.com",
+      repo: "zesion21/zesionlee.cn",
       category: "Q&A",
       categoryId: "DIC_kwDOM4r5hc4Ci4z2",
     },
