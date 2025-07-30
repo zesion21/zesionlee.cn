@@ -1,4 +1,4 @@
-name: CI
+name: Build and Deploy
 
 # 在master分支发生push事件时触发。
 on:
@@ -8,21 +8,35 @@ on:
 jobs: # 工作流
   build:
     runs-on: ubuntu-latest #运行在虚拟机环境ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [20.16]
-
     steps:
-      - name: Checkout # 步骤1
+      # 步骤1 检出
+      - name: Checkout 
         uses: actions/checkout@v1 # 使用的动作。格式：userName/repoName。作用：检出仓库，获取源码。 官方actions库：https://github.com/actions
-      - name: Use Node.js ${{ matrix.node-version }} # 步骤2
+        
+      # 步骤2 设置Node
+      - name: Use Node.js  
         uses: actions/setup-node@v1 # 作用：安装nodejs
         with:
-          node-version: ${{ matrix.node-version }} # 版本
-      - name: run deploy.sh # 步骤3 （同时部署到github和coding）
+          node-version: '20.16' # 版本
+
+      # 步骤 3：安装依赖
+      - name: Install dependencies
+        run: npm install --force && npm run build
+        
+      # 步骤 4：部署FTP  
+      - name: Deploy to FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.FTP_SERVER }}  # 从 Secrets 获取 FTP 服务器地址
+          username: ${{ secrets.FTP_USERNAME }}  # 从 Secrets 获取用户名
+          password: ${{ secrets.FTP_PASSWORD }}  # 从 Secrets 获取密码
+          local-dir: ./src/.vuepress/dist/  # 本地打包后的文件夹路径（根据项目调整）
+          server-dir: /wwwroot/  # FTP 服务器上的目标目录
+          log-level: verbose  # 显示详细日志，便于调试
+
+      # 步骤 5：部署到github.io
+      - name: Deploy to github.io
         env: # 设置环境变量
           GITHUB_TOKEN: ${{ secrets.TOKEN }} # toKen私密变量
-          CODING_TOKEN: ${{ secrets.CODING_TOKEN }} # 腾讯云开发者平台（coding）私密token
-        run: npm install --force && npm run deploy # 执行的命令
+        run: npm run deploy # 执行的命令
         # package.json 中添加 "deploy": "bash deploy.sh"
